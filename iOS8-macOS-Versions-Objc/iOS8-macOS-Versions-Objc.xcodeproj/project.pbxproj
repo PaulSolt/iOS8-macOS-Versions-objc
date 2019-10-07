@@ -71,10 +71,7 @@
 				BD467F93234B9B8800C3BDD6 /* AppDelegate.m */,
 				BD467F95234B9B8800C3BDD6 /* SceneDelegate.h */,
 				BD467F96234B9B8800C3BDD6 /* SceneDelegate.m */,
-				BD467FAB234BA38900C3BDD6 /* LSIMacOSVersion.h */,
-				BD467FAC234BA38900C3BDD6 /* LSIMacOSVersion.m */,
-				BD467FAE234BAC8900C3BDD6 /* LSIVersionController.h */,
-				BD467FAF234BAC8900C3BDD6 /* LSIVersionController.m */,
+				BD467FB1234BB00100C3BDD6 /* Version Screen */,
 				BD467F98234B9B8800C3BDD6 /* ViewController.h */,
 				BD467F99234B9B8800C3BDD6 /* ViewController.m */,
 				BD467F9B234B9B8800C3BDD6 /* Main.storyboard */,
@@ -84,6 +81,17 @@
 				BD467FA4234B9B8900C3BDD6 /* main.m */,
 			);
 			path = "iOS8-macOS-Versions-Objc";
+			sourceTree = "<group>";
+		};
+		BD467FB1234BB00100C3BDD6 /* Version Screen */ = {
+			isa = PBXGroup;
+			children = (
+				BD467FAB234BA38900C3BDD6 /* LSIMacOSVersion.h */,
+				BD467FAC234BA38900C3BDD6 /* LSIMacOSVersion.m */,
+				BD467FAE234BAC8900C3BDD6 /* LSIVersionController.h */,
+				BD467FAF234BAC8900C3BDD6 /* LSIVersionController.m */,
+			);
+			path = "Version Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
