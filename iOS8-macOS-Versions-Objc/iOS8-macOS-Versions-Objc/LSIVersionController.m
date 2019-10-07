@@ -27,7 +27,6 @@
 		
 		
 		_versions = [[NSArray alloc] initWithObjects:
-					 
 					 [[LSIMacOSVersion alloc] initWithName:@"Cheetah" releaseDate:@"March 24, 2001"],
 					 [[LSIMacOSVersion alloc] initWithName:@"Puma" releaseDate:@"September 25, 2001"],
 					 [[LSIMacOSVersion alloc] initWithName:@"Jaguar" releaseDate:@"August 24, 2002"],
@@ -43,8 +42,8 @@
 					 [[LSIMacOSVersion alloc] initWithName:@"Sierra" releaseDate:@"September 20, 2016"],
 					 [[LSIMacOSVersion alloc] initWithName:@"High Sierra" releaseDate:@"September 25, 2017"],
 					 [[LSIMacOSVersion alloc] initWithName:@"Mojave" releaseDate:@"September 24, 2018"],
-					 [[LSIMacOSVersion alloc] initWithName:@"Catalina" releaseDate:@"October, 2019?"]
-					 , nil];
+					 [[LSIMacOSVersion alloc] initWithName:@"Catalina" releaseDate:@"October, 2019?"],
+					 nil];
 	}
 	return self;
 }
