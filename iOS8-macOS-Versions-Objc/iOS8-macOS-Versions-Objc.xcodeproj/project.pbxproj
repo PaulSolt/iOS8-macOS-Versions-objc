@@ -16,6 +16,7 @@
 		BD467FA5234B9B8900C3BDD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD467FA4234B9B8900C3BDD6 /* main.m */; };
 		BD467FAD234BA38900C3BDD6 /* LSIMacOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = BD467FAC234BA38900C3BDD6 /* LSIMacOSVersion.m */; };
 		BD467FB0234BAC8900C3BDD6 /* LSIVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD467FAF234BAC8900C3BDD6 /* LSIVersionController.m */; };
+		BD467FB4234BB11800C3BDD6 /* LSIVersionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD467FB3234BB11800C3BDD6 /* LSIVersionsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		BD467FAC234BA38900C3BDD6 /* LSIMacOSVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIMacOSVersion.m; sourceTree = "<group>"; };
 		BD467FAE234BAC8900C3BDD6 /* LSIVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionController.h; sourceTree = "<group>"; };
 		BD467FAF234BAC8900C3BDD6 /* LSIVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionController.m; sourceTree = "<group>"; };
+		BD467FB2234BB11800C3BDD6 /* LSIVersionsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionsTableViewController.h; sourceTree = "<group>"; };
+		BD467FB3234BB11800C3BDD6 /* LSIVersionsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				BD467FAC234BA38900C3BDD6 /* LSIMacOSVersion.m */,
 				BD467FAE234BAC8900C3BDD6 /* LSIVersionController.h */,
 				BD467FAF234BAC8900C3BDD6 /* LSIVersionController.m */,
+				BD467FB2234BB11800C3BDD6 /* LSIVersionsTableViewController.h */,
+				BD467FB3234BB11800C3BDD6 /* LSIVersionsTableViewController.m */,
 			);
 			path = "Version Screen";
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD467FB4234BB11800C3BDD6 /* LSIVersionsTableViewController.m in Sources */,
 				BD467F9A234B9B8800C3BDD6 /* ViewController.m in Sources */,
 				BD467FAD234BA38900C3BDD6 /* LSIMacOSVersion.m in Sources */,
 				BD467F94234B9B8800C3BDD6 /* AppDelegate.m in Sources */,
