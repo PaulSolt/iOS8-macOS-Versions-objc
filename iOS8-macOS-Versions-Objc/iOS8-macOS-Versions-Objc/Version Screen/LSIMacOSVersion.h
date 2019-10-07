@@ -16,7 +16,7 @@
 
 @interface LSIMacOSVersion: NSObject
 
-@property NSString *name;				// _name
+@property (nonatomic) NSString *name;				// _name
 @property NSString *releaseDate;		// _releaseDate
 
 // id = the any type (AnyObject)
