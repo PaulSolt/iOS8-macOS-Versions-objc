@@ -32,5 +32,13 @@
 
 // IBActions
 
+- (NSTimeInterval)calculateCakeBakeTime {
+	return 0;	// must use semicolons on every code line
+}
+
++ (int)numberOfInstances {
+	return 0;
+}
+
 
 @end

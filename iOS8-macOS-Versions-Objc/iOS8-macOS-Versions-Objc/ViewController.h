@@ -29,6 +29,9 @@
 
  */
 
+// NS_ASSUME_NONNULL_BEGIN  == everything is non-optional
+// API bridging to Swift
+
 // Class Interface
 
 
