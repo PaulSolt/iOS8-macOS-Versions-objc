@@ -8,7 +8,18 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+// Private Interface / Variables / Properties
+// Anonymous Category (Class Extension)
+@interface ViewController () {
+	// instance variables
+	
+	// Naming Conventions (use underscore for ivars)
+	int _count; // instance variable (ivar)
+}
+
+// IBOutlets
+
+// Properties (will be backed by ivars)
 
 @end
 
@@ -18,6 +29,8 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
+
+// IBActions
 
 
 @end
