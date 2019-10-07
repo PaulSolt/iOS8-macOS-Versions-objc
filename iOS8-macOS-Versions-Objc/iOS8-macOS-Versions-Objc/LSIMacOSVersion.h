@@ -8,7 +8,32 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LSIMacOSVersion : NSObject
+//class MacOSVersion {
+//	var name: String
+//	var releaseDate: String
+//	init(name: String, releaseDate: String) { }
+//}
+
+@interface LSIMacOSVersion: NSObject
+
+@property NSString *name;				// _name
+@property NSString *releaseDate;		// _releaseDate
+
+// id = the any type (AnyObject)
+//- (id)initWithName:(NSString *)name releaseDate:(NSString *)releaseDate;
+
+
+//init(name: String, releaseDate: String)
+- (instancetype)initWithName:(NSString *)name releaseDate:(NSString *)releaseDate;
+
 
 @end
 
+
+// Swift: Character = char
+
+// char *firstName, lastName;
+// 1. char *firstName  => "Paul"
+// 2. char lastName    => 'P'
+
+// NEVER declare multiple variables on one line
